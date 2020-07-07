@@ -1,0 +1,38 @@
+{
+    "name": "marshmallow/mr-mallow",
+    "description": "Speciale Mr Mallow functies",
+    "keywords": ["marshmallow"],
+    "homepage": "https://github.com/Marshmallow-Development/",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stef",
+            "email": "stef@marshmallow.dev",
+            "homepage": "https://marshmallow.dev",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "stef@marshmallow.dev"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Marshmallow\\MrMallow\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Marshmallow\\MrMallow\\MrMallowServiceProvider"
+            ],
+            "aliases": {
+                "MrMallow": "Marshmallow\\MrMallow\\Facades\\MrMallow"
+            }
+        }
+    }
+}
