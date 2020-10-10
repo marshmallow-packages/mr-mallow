@@ -28,7 +28,7 @@ class MrMallowServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-    	$this->loadViewsFrom(__DIR__.'/../resources/views', 'mrmallow');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'mrmallow');
 
         $this->publishes([
             __DIR__ . '/../config/mr-mallow.php' => config_path('mr-mallow.php'),
