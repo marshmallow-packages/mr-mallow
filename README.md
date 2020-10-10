@@ -1,13 +1,35 @@
-![alt text](https://cdn.marshmallow-office.com/media/images/logo/marshmallow.transparent.red.png "marshmallow.")
+![alt text](https://marshmallow.dev/cdn/media/logo-red-237x46.png "marshmallow.")
 
-# MrMallow
-Functies voor MrMallow
+# mr-mallow
+[![Version](https://img.shields.io/packagist/v/marshmallow/mr-mallow)](https://github.com/marshmallow-packages/mr-mallow)
+[![Issues](https://img.shields.io/github/issues/marshmallow-packages/mr-mallow)](https://github.com/marshmallow-packages/mr-mallow)
+[![Licence](https://img.shields.io/github/license/marshmallow-packages/mr-mallow)](https://github.com/marshmallow-packages/mr-mallow)
+![PHP Syntax Checker](https://github.com/marshmallow-packages/mr-mallow/workflows/PHP%20Syntax%20Checker/badge.svg)
 
-### Installatie
-```bash
+## Installation
+
+You can install the package via composer:
+``` bash
 composer require marshmallow/mr-mallow
 ```
 
+## Usage
 ```html
 <x-mr-mallow-ascii/>
 ```
+
+## Changelog
+
+Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+
+## Security
+
+If you discover any security related issues, please email stef@marshmallow.dev instead of using the issue tracker.
+
+## Credits
+
+- [All Contributors](../../contributors)
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
